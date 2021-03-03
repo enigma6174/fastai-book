@@ -1,0 +1,8 @@
+# Ignore all checkpoint directories at root level
+.ipynb_checkpoints
+
+# Ignore all checkpoint directories at child level
+**/.ipynb_checkpoints
+
+# Ignore the contents of checkpoint directories
+.ipynb_checkpoints/**
